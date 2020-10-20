@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		1D79C24E253EE66600C0D613 /* CustomedRoundView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D79C24C253EE66600C0D613 /* CustomedRoundView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D79C256253EE7A900C0D613 /* CustomRoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D79C255253EE7A900C0D613 /* CustomRoundView.swift */; };
+		1D79C256253EE7A900C0D613 /* CustomedRoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D79C255253EE7A900C0D613 /* CustomedRoundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1D79C249253EE66600C0D613 /* CustomedRoundView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomedRoundView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D79C24C253EE66600C0D613 /* CustomedRoundView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomedRoundView.h; sourceTree = "<group>"; };
 		1D79C24D253EE66600C0D613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1D79C255253EE7A900C0D613 /* CustomRoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomRoundView.swift; path = ../../TestFramework/TestFramework/CustomRoundView.swift; sourceTree = "<group>"; };
+		1D79C255253EE7A900C0D613 /* CustomedRoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomedRoundView.swift; path = ../../TestFramework/TestFramework/CustomedRoundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				1D79C24C253EE66600C0D613 /* CustomedRoundView.h */,
-				1D79C255253EE7A900C0D613 /* CustomRoundView.swift */,
+				1D79C255253EE7A900C0D613 /* CustomedRoundView.swift */,
 				1D79C24D253EE66600C0D613 /* Info.plist */,
 			);
 			path = CustomedRoundView;
@@ -134,7 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D79C256253EE7A900C0D613 /* CustomRoundView.swift in Sources */,
+				1D79C256253EE7A900C0D613 /* CustomedRoundView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
